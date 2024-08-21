@@ -32,8 +32,8 @@ async function sendDolarValue() {
   }
 }
 
-// sendDolarValue()
+sendDolarValue()
 
 // Programa la tarea cron para que se ejecute de lunes a viernes a las 5 PM
 // cron.schedule('0 17 * * 1-5', sendDolarValue);
-cron.schedule('35 14 * * 1-5', sendDolarValue);
+// cron.schedule('35 14 * * 1-5', sendDolarValue);
