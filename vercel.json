@@ -5,5 +5,18 @@
         "src": "index.js",
         "use": "@vercel/node"
       }
-    ]
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "index.js"
+      }
+    ],
+    "env": {
+      "TU_ACCOUNT_SID": "ACaa23fa00515e3dd17f45f4bbd80d0577",
+      "TU_AUTH_TOKEN": "cf103a14c600ab3d1826ce251ee2bd3b",
+      "NUMERO_DESTINO_1": "+584244107956",
+      "TU_NUMERO_DE_TWILIO": "+12086841798"
+    }
   }
+  
